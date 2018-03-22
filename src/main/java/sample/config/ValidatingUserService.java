@@ -6,6 +6,10 @@ import org.springframework.security.oauth2.core.OAuth2AuthenticationException;
 import org.springframework.security.oauth2.core.OAuth2Error;
 import org.springframework.security.oauth2.core.oidc.user.OidcUser;
 
+/**
+ * OidcUserService with validation. This class can be used as a user service for OpenID Connect providers.
+ * For pure OAuth2 providers, a custom user service should extend DefaultOAuth2UserService.
+ */
 public class ValidatingUserService extends OidcUserService {
 
     @Override

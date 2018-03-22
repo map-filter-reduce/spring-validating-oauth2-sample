@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
 
+/**
+ * Sample REST controller for doing nothing.
+ */
 @RestController
 public class SampleController {
 
